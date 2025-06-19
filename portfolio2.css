@@ -266,3 +266,19 @@ input{
 .socials i{
     color: white   ;
 }
+.copyright{
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.donate_btn{
+    background-color: blue;
+    border-radius: 15px;
+    justify-self: center;
+}
+.donate{
+    justify-self: center;
+    background-color: black;
+    color: white;
+}
