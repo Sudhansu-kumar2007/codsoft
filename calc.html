@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel ="stylesheet" href="calc.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<script>
+    let r= eval(display.value)
+</script>
+
+
+    <title>calc</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="cal">
+            <div class ="display">
+            <input type ="text" id ="display" class ="dis"></input>
+            </div>
+            <div class ="btn-cont">
+
+
+            <div class="button"><button class="clr" value ="AC" onclick="display.value =''"> AC</div>
+             <div class="button"><button  value ="0" onclick="display.value+='0'">0</div>
+             <div class="button"><button class ="clr" value ="C" onclick="display.value = display.value.toString().slice(0,-1)">C</div>
+
+             <div class="button"><button  value ="7" onclick="display.value+='7'">7</div>
+             <div class="button"><button  value ="8" onclick="display.value +='8'">8</div>
+             <div class="button"><button value ="9" onclick="display.value +='9'">9</div>
+
+             <div class="button"><button value ="4" onclick="display.value +='4'">4</div>
+             <div class="button"><button value ="5" onclick="display.value +='5'">5</div>
+             <div class="button"><button value ="6" onclick="display.value +='6'">6</div>
+
+             <div class="button"><button value ="1" onclick="display.value +='1'">1</div>
+             <div class="button"><button value ="2" onclick="display.value +='2'">2</div>
+             <div class="button"><button value ="3" onclick="display.value +='3'">3</div>
+
+             <div class="button"><button class ="operator " value ="-" onclick="display.value +='-'">-</div>
+             <div class="button"><button class ="operator " value ="*" onclick="display.value +='*'">*</div>
+             <div class="button"><button class ="operator " value ="/" onclick="display.value +='/'">/</div>
+
+             <div class="button"><button class ="operator " value ="+" onclick="display.value +='+'">+</div>
+             <div class="button" ><button class ="operator " value ="=" id ="e" onclick="display.value = eval(display.value)">=</div>
+             </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+<div class ="credit">-BY Sudhansu</div>
+
+    </div>
+
+    </body>
+</html>

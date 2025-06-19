@@ -1,0 +1,27 @@
+.container{
+    width: 900px;
+    max-width: 90vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header .icon_cart .cart_count{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: aliceblue;
+    position:absolute;
+    top:50px;
+    right: -20px;
+
+
+}

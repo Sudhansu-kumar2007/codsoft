@@ -1,0 +1,268 @@
+.container_1{
+    background: url("assets/bgimg4.avif");
+    background-size:cover;
+    height:700px;
+    background-repeat: no-repeat;
+    width:100%;
+}
+.container_2{
+    position:absolute;
+    top: 50px;
+    left: 40%;
+}
+.profile img{
+    display:block;
+    height: 400px;
+     width:400px;
+    border: 30px;
+    border-color: gold;
+    border-radius: 50%;
+position: relative;
+justify-content: center;    }
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight:900;
+  font-style: normal;
+  color:rgb(9, 29, 70);
+    font-size: 50px;
+    justify-self: center;
+}
+p{
+    justify-self: center;
+    font-size: 25px;
+}
+.resume{
+    justify-self: center;
+    font-size: 25px;
+}
+.edu_contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: left;
+    font-size: 20px;
+    color: rgb(9, 29, 70);
+    width:max-content;
+}
+skill_contain{
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    justify-self: center;
+    width:max-content;   
+    font-size: 25px;
+    color: rgb(9, 29, 70);
+}
+.container_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    width: 100%;
+    height: 100%;
+
+}
+li{
+    padding: 20px;
+    font-size: 18px;;
+}
+li:hover{
+
+    font-size: 40px;
+    transition:0.3s
+}
+h2{
+    font-size: 30px;
+    color: rgb(9, 29, 70);
+}
+
+
+
+.pro_contain h2 {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.pro_contain a{
+    text-decoration: none;
+    color: rgb(9, 29, 70);
+
+}
+.edu_contain a{
+    text-decoration: none;
+    color: rgb(9, 29, 70);
+
+}
+
+
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    width: 100%;
+    height: 100%;
+}
+footer h2{
+    color:brown;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    width: max-content;
+    
+}
+.socials{
+    width: max-content;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    width: 100%;
+    height: 100%;
+}
+
+.socials:nth-child{
+    background-color: rgba(246, 0, 0, 0.945);
+}
+@media(max-width:400px){
+    img{
+        display:flex;
+        position: relative;
+        top: 0%;
+        left:0%;
+        flex-wrap: wrap;
+        justify-items:left;
+        align-items: left;
+        
+    }
+    .container_2{
+        position:absolute;
+        top: 50px;
+        left: 20%;
+    }
+    .container_3{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+#sos{
+    height: 80px;
+    width: 80px;
+    align-self: center;
+    display: flex;
+}
+
+.btn_one {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-weight: 700;
+     top: 0px; 
+     font-size: 50px;
+     left: -15px;
+    
+    line-height: 50px;
+
+}
+.sidebar_menu{
+    position: fixed;
+     left:-450px;  
+     
+    height:100vh;
+    width:25%;
+    background-color:rgba(0, 0, 0, 0.532) ;
+    box-shadow: 0 0 6px rgba(255, 253, 253, 0.502);
+    transition: all 0.5s linear;
+
+}
+.sidebar_menu .logo{
+    position: absolute;
+    top:-90px;
+    line-height: 60px;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.532) ;
+    box-shadow: 0 0 6px rgba(255, 253, 253, 0.502);
+}
+
+.sidebar_menu .logo a{
+   position: absolute;
+   left:60px;
+   top:-90px;
+   color:rgb(5, 5, 5);
+   text-decoration: none;
+   font-size: 50px; 
+   font-weight: 50;
+
+    
+
+}
+.sidebar_menu{
+    position: absolute;
+    color:rgb(28, 26, 26);
+    
+    width:400px;
+    top:80px;
+
+}
+.btn_two{
+    color: grey;
+    position: absolute;
+    left: 350px;
+    font-size: 40px;
+    top:-75px
+
+}
+
+
+i{
+    padding-left: 20px;
+    color:rgb(7, 7, 7);
+    background-color: rgba(86, 56, 56, 0);
+}
+
+.btn_two:hover{
+    font-size:30px;
+}
+.btn_one:hover{
+    font-size:30px;
+}
+li:hover{
+    font-size: larger;
+     box-shadow: 15px 1x 5px black;
+   
+}
+.social_media {
+    font-size:50px;
+    position: relative;
+    top:20px;
+}
+i:hover{
+    font-size: 50px;
+}
+ .logo a {
+    font-size: 50px;
+}
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+#check:checked ~ .btn_one {
+    opacity: 0;
+}
+input{
+    position: absolute;
+    top: -30px;
+}
+
+.socials i{
+    color: white   ;
+}

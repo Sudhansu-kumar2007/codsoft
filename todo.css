@@ -1,0 +1,91 @@
+body{
+    /* background-color: linear-gradient(0deg,rgb(52, 134, 154),rgb(4, 0, 255)); */
+
+background: url(assets/bgimg.jpg);
+}
+.container{
+    background-color: white;
+    display:flexbox;
+    width:700px;
+    height: 500px;
+    justify-self: center;
+    align-self: center;
+    position:absolute;
+    top:150px;
+    left: 400px;
+    overflow:scroll;
+}
+.add{
+    border-radius: 20px;
+    width:130px;
+    
+    background-color: blueviolet;
+}
+.container input{
+    margin-top: 20px;
+    margin-left: 5px;;
+    height:30px;
+}
+.task{
+    width:400px;
+}
+#taskhead{
+    width:400px;
+}
+.remove{
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    width:100px;
+     /* width:80px;
+    display: flex;
+    justify-self: end;
+    position: relative;
+    top:-40px; 
+    right:10px;  */
+
+
+}
+li{
+    width:100%;
+}
+.d{
+    justify-self:end;
+}
+ul{
+    display:block;
+    flex-direction: row;
+    justify-items:end;
+}
+li:nth-of-type(2n+1){
+    background-color: rgba(104, 100, 100, 0.831);
+}
+li:nth-of-type(2n){
+    background-color: rgba(10, 8, 15, 0.623);
+}
+
+.correct{
+    text-decoration: line-through;
+    color: red;
+}
+/* li{
+    padding: 5px;
+    margin:5px;
+} */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Optional: add padding or border */
+}
+ul{
+    justify-content: center;
+}
+.remove {
+    margin-left: auto;
+}
+/* .incomplete {
+    color: green;
+} */
+.complete {
+    color: rgb(0, 255, 0);
+}
